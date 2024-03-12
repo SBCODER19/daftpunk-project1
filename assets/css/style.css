@@ -249,12 +249,7 @@ nav ul li:hover .dropdown-menu2 {
     background-color: #555;
 }
 /* Sections */
-section:nth-child(even) {
-    background-color: #67bae5; /* Change to the accented color */
-}
-section:nth-child(odd) {
-    background-color: #a668d9; /* Change to the accented color */
-}
+ 
 
  /* Style for the figure element */
  figure {
@@ -263,14 +258,12 @@ section:nth-child(odd) {
     align-items: center;
 }
 
-/* Style for the image element */
 figure img {
     max-width: 100%;
     height: auto;
     margin-right: 10px; /* Adjust as needed */
 }
 
-/* Style for the figcaption element */
 figcaption {
     flex: 0 0 auto;
 }
