@@ -172,13 +172,6 @@ footer p {
     color: #fff;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-    .video-container {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 /* Dropdown Menu 1*/
 nav ul li {
@@ -218,7 +211,6 @@ nav ul li:hover .dropdown-menu1 {
     display: block;
     text-align: center;
 }
-
 
 /* back-to-top-button */
 .back-to-top-button {
@@ -292,4 +284,12 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
