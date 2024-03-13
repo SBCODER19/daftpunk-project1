@@ -95,7 +95,7 @@ p {
 /* footer content */
 footer {
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     padding: 20px 0;
     height: 150px;
@@ -301,3 +301,7 @@ figcaption {
     justify-content: center;
     align-items: center;
   }
+
+  footer p {
+    background-color: transparent;
+}
