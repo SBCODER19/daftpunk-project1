@@ -253,7 +253,12 @@ nav ul li:hover .dropdown-menu2 {
     background-color: #555;
 }
 /* Sections */
- 
+section:nth-child(even) {
+    background-color: #67bae5; 
+}
+section:nth-child(odd) {
+    background-color: #03a9fc; 
+}
 
  /* Style for the figure element */
  figure {
