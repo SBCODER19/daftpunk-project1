@@ -278,3 +278,10 @@ figure img {
 figcaption {
     flex: 0 0 auto;
 }
+
+/* Style for the paragraph classes */
+.paragraph-container {
+    background-color: #78f2f2;
+    border-radius: 5px;
+    margin: 20px;
+  }
