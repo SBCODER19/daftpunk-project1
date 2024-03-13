@@ -173,7 +173,13 @@ footer p {
     }
 }
 
-/* Dropdown Menu 1 need to figure linking between docs with dropdown*/ 
+/* Dropdown Menu 1*/ 
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+}
+
 .dropdown-menu1 {
     display: none;
     position: absolute;
@@ -206,12 +212,12 @@ nav ul li:hover .dropdown-menu1 {
     text-align: center;
 }
 
-/* dropdownmenu 2 need to figure linking between docs with dropdown*/ 
+/* dropdownmenu 2 */ 
 .dropdown-menu2 {
     display: none;
     position: absolute;
     background-color: #444;
-    padding: 10px 0;
+    padding: 30px 30px;
     text-align: center;
     z-index: 1;
     left: 50%;
