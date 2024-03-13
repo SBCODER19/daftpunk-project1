@@ -11,6 +11,7 @@ body {
     background-color: #201313;
     color: #333;
 }
+
 /* header content */
 .header-content {
     max-width: 800px;
@@ -34,6 +35,7 @@ blockquote {
     font-style: italic;
     margin-top: 20px;
 }
+
 /* nav content */
 nav {
     background-color: #444;
@@ -61,6 +63,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+
 /* main content */
 main {
     padding: 20px;
@@ -77,9 +80,9 @@ h2 {
     text-align: center;
 }
 
-h3{
-  margin-bottom: 10px;
-  text-align: center;
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 p {
@@ -92,8 +95,9 @@ p {
 #artist-intro {
     color: #f7f7f8;
     background-color: transparent;
-    text-align:center;
+    text-align: center;
 }
+
 /* footer content */
 footer {
     background-color: #333;
@@ -102,9 +106,11 @@ footer {
     padding: 20px 0;
     height: 150px;
 }
+
 footer p {
     background-color: transparent;
 }
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -146,6 +152,7 @@ footer p {
     margin-left: auto;
     margin-right: auto;
 }
+
 /* picture section */
 .picture {
     display: block;
@@ -173,7 +180,7 @@ footer p {
     }
 }
 
-/* Dropdown Menu 1*/ 
+/* Dropdown Menu 1*/
 nav ul li {
     display: inline-block;
     position: relative;
@@ -212,39 +219,8 @@ nav ul li:hover .dropdown-menu1 {
     text-align: center;
 }
 
-/* dropdownmenu 2 */ 
-.dropdown-menu2 {
-    display: none;
-    position: absolute;
-    background-color: #444;
-    padding: 30px 30px;
-    text-align: center;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
-}
 
-.dropdown-menu2 li {
-    margin: 0;
-}
-
-.dropdown-menu2 li a {
-    display: block;
-    padding: 10px 0;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.dropdown-menu2 li a:hover {
-    background-color: #555;
-}
-
-nav ul li:hover .dropdown-menu2 {
-    display: block;
-}
-
-/* back-to-top-button */ 
+/* back-to-top-button */
 .back-to-top-button {
     display: inline-block;
     background-color: #333;
@@ -257,22 +233,26 @@ nav ul li:hover .dropdown-menu2 {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    position: fixed; bottom: 20px; right: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
 }
 
 .back-to-top-button:hover {
     background-color: #555;
 }
+
 /* Sections */
 section:nth-child(even) {
-    background-color: #67bae5; 
-}
-section:nth-child(odd) {
-    background-color: #03a9fc; 
+    background-color: #67bae5;
 }
 
- /* Style for the figure element */
- figure {
+section:nth-child(odd) {
+    background-color: #03a9fc;
+}
+
+/* Style for the figure element */
+figure {
     background-color: #78f2f2;
     border-radius: 5px;
     display: flex;
@@ -295,9 +275,9 @@ figcaption {
     background-color: #78f2f2;
     border-radius: 5px;
     margin: 20px;
-  }
+}
 
-  /* style for images on artist page */
+/* style for images on artist page */
 
 .artist-image {
     display: block;
@@ -305,12 +285,11 @@ figcaption {
     margin-right: auto;
     max-width: 100%;
     height: auto;
-  }
-  /* style for fig-container */
+}
+
+/* style for fig-container */
 .fig-container {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
- 
+}
