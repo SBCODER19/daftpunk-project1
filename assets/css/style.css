@@ -104,7 +104,7 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
-    height: 150px;
+    height: 200px;
 }
 
 footer p {
@@ -113,6 +113,7 @@ footer p {
 
 .footer-content {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
@@ -121,9 +122,6 @@ footer p {
 .footer-content .footer-center-content,
 .footer-content .footer-right-content {
     flex: 1;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
 }
 
 .footer-content .footer-left-content,
