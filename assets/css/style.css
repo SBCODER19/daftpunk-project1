@@ -90,7 +90,9 @@ p {
 }
 
 #artist-intro {
-    color: #f7f7f8
+    color: #f7f7f8;
+    background-color: transparent;
+    text-align:center;
 }
 /* footer content */
 footer {
