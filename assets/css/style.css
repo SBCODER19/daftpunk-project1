@@ -291,3 +291,17 @@ figcaption {
         align-items: center;
     }
 }
+
+@media screen and (max-width: 250px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .video-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
