@@ -142,7 +142,7 @@ Mobile: Performance score of 100, Accessibility score of 100, Best Practices sco
 Desktop: Performance score of 100, Accessibility score of 100, Best Practices score of 100.
 ![artist desk lighthouse image](assets/readme-images/artist-desk.webp)
 
-###Discography Page:
+### Discography Page:
 
 Mobile: Performance score of 68, Accessibility score of 92, Best Practices score of 74.
 ![disc lighthouse mobile image](assets/readme-images/disk-mobile.webp)
@@ -164,6 +164,8 @@ Desktop: Performance score of 64, Accessibility score of 92, Best Practices scor
 ### Media:
 
 -Album covers and artist photos sourced from official Daft Punk channels.
+
+-All Videos Sourced from the offical DaftPunk YouTube channel.
 
 ## Acknowledgments:
 
