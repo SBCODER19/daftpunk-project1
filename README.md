@@ -29,6 +29,9 @@ The chosen font, Arial, is a clean and legible sans-serif typeface that ensures 
 
 High-quality imagery, including album covers and artist photos, is used throughout the website to enhance visual appeal and provide context to the content. Images are carefully selected to evoke the essence of Daft Punk's iconic style and music.
 
+### Videos:
+High-qualiy videos, including some top songs of daft on the home page and select songs from each album on discography page. provides interaction to the page. 
+
 ### Wireframes:
 
 Wireframes were created to plan the layout and structure of each page, ensuring a logical flow of information and a consistent user experience across the website.
@@ -49,12 +52,14 @@ Wireframes were created to plan the layout and structure of each page, ensuring 
 ### Index Page:
 
 -Hero section showcasing Daft Punk's image and brief introduction.
+
 -timeline highlighting key milestones in their career.
 ![Home page](assets/readme-images/mainpage.webp)
 
 ### Artist Page
 
 -Detailed biography of Daft Punk members.
+
 -Images featuring iconic images of the duo.
 ![Artist Page](assets/readme-images/artistpage.webp)
 ### Discography Page:
@@ -65,7 +70,9 @@ Wireframes were created to plan the layout and structure of each page, ensuring 
 ## Accessibility:
 
 -Semantic HTML elements for improved accessibility.
+
 -Descriptive alt attributes for images.
+
 -Ensured sufficient colour contrast for readability.
 
 
@@ -84,9 +91,13 @@ Wireframes were created to plan the layout and structure of each page, ensuring 
 ## Deployment:
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
+
 -In the GitHub repository, navigate to the Settings tab
+
 -From the source section drop-down menu, select the Master Branch
--Once the master branch has been selected, the page will be automatically refreshed with a -detailed ribbon display to indicate the successful deployment.
+
+-Once the master branch has been selected, the page will be automatically refreshed with a 
+detailed ribbon display to indicate the successful deployment.
 
 
 ## Testing:
@@ -100,7 +111,13 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 ![W3C CSS Validator image](assets/readme-images/w3c-css.webp)
 
 ### Solved Bugs
-No bugs were encountered during development.
+1. Had an issue with the nav bar and couldnt figure out how the drop down menu would trasfer you to a certain part of a  differnt page. fixed it however wih a bit of reasearching on w3chools.com with relative links]
+
+2. Had an issue with the mobile version. all content was displaying on the left hand side and left massive space on the right. fixed with the footer being chnaged to flex:column instead of flex:row.
+
+3. Had an issue with discography page and the images/videos not fitting on the page or in ther containers themselves. fixed with playing in dev tools with the styles untill found suitable sizing, added media quires to match. issue was fixed.
+
+4. Had a Problem with a couple figure images as they were not displaying, figured out had spelled figure incorrectly and therefore wouldnt display, fixed issue. 
 
 ### Known Bugs
 No known bugs at the time of deployment.
@@ -131,23 +148,23 @@ Mobile: Performance score of 68, Accessibility score of 92, Best Practices score
 ![disc lighthouse mobile image](assets/readme-images/disk-mobile.webp)
 
 Desktop: Performance score of 64, Accessibility score of 92, Best Practices score of 78.
-![disc lighthouse desk image](assets/readme-images/artist-desk.webp)
+![disc lighthouse desk image](assets/readme-images/disk-desk.webp)
 
 
-##Credits:
+## Credits:
 
-###Code Used:
+### Code Used:
 
 -No external code snippets used.
 
-###Content
+### Content
 
 -All written content is original.
 
-###Media:
+### Media:
 
 -Album covers and artist photos sourced from official Daft Punk channels.
 
-##Acknowledgments:
+## Acknowledgments:
 
 -Special thanks to Daft Punk for their groundbreaking contributions to electronic music.
